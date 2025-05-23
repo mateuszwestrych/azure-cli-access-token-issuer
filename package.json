@@ -1,0 +1,22 @@
+{
+  "name": "azure-cli-access-token-issuer",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node azure-cli-access-token-issuer.js",
+    "build" :"npx tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "chalk": "4.1.0",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.2",
+    "@types/node": "^22.15.21",
+    "typescript": "^5.8.3"
+  }
+}
